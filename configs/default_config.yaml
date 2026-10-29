@@ -1,0 +1,26 @@
+
+# Default configuration for Plant Disease Classification
+
+project:
+  name: "plant_disease_classification"
+  seed: 42
+
+data:
+  kaggle_dataset: "abdallahalidev/plantvillage-dataset"
+  target_subfolder: "color"  # color, grayscale, or segmented
+  image_size: 224
+
+  split_ratios:
+    train: 0.70
+    val: 0.15
+    test: 0.15
+
+  batch_size: 32
+  num_workers: 4
+
+paths:
+  data_splits: "data/splits"
+  outputs_figures: "outputs/figures"
+  outputs_tables: "outputs/tables"
+  outputs_checkpoints: "outputs/checkpoints"
+  outputs_logs: "outputs/logs"

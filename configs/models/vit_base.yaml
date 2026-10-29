@@ -1,0 +1,10 @@
+
+model:
+  name: "vit_base_patch16_224"
+  architecture: "vit"
+  pretrained: true
+
+training:
+  epochs: 10
+  lr: 5e-5
+  weight_decay: 1e-2

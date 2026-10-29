@@ -1,0 +1,10 @@
+
+model:
+  name: "efficientnet_b0"
+  architecture: "cnn"
+  pretrained: true
+
+training:
+  epochs: 10
+  lr: 1e-4
+  weight_decay: 1e-4
