@@ -19,7 +19,7 @@ data:
   num_workers: 4
 
 paths:
-  data_splits: "data/splits"
+  data_splits: "data/split"
   outputs_figures: "outputs/figures"
   outputs_tables: "outputs/tables"
   outputs_checkpoints: "outputs/checkpoints"
